@@ -1,0 +1,535 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+/*grillas index*/
+.gridContainer{
+    display: grid;
+    grid-template-rows: 600px 1000px 500px 280px;
+}
+
+
+
+/*barra de navegación*/
+.barradenavegación{
+    background-color: white;
+    background-size: cover;
+    height: 80px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul li { 
+    display: inline-block;
+}
+header nav ul li a { 
+    font-size: 24px;
+    margin: 0 45px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Zilla Slab', serif;
+}
+
+.margenimg{
+    margin-left: 50px;
+}
+
+
+
+.subtitulo {    
+    margin: 110px 50px ; 
+    color: #5C6B73;
+    font-size: 40px;
+    font-family: 'Zilla Slab', serif;
+    font-weight: bold;
+}
+
+/*ordenar tarjetas index con grillas y fexbox*/
+.cardsgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height:1000px ;
+    justify-items: center;
+    margin: auto;
+}
+
+.cardsgrid .cards{
+    width: 445px;
+    height: 580px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 50px;
+    text-align: center;
+    box-shadow: 0 10px 10px 0 #5C6B73;
+    display: grid;
+}
+
+.cardsgrid .cards img {
+    width: 445px ;
+    height: 445px;
+}
+
+.cardsgrid .cards a{
+    font-size: 28px;
+    text-decoration: none;
+    color:black;
+    font-family: 'Zilla Slab', serif;
+    margin: 50px;
+}
+
+/*section index con flexbox*/
+
+
+
+.boton{
+    background-color: #5C6B73;
+    color: white;
+    border-radius: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    padding: 45px 300px;
+    text-decoration: none;
+    font-family: 'Zilla Slab', serif;
+}
+
+.textosection{ 
+    font-size: 24px;
+    font-family: 'Zilla Slab', serif;
+    margin-bottom: 75px;
+    margin-right: 50px;
+}
+
+/*organizar footer*/
+
+.contenedorfooter{
+    background-color: #B8C2C8;
+    height: 280px;
+    
+}
+
+.contenedorfooter div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 100px;
+}
+
+
+/*page conoceme* style*/
+.nombreCv{
+    color: #5C6B73;
+    font-size: 40px;
+    font-family: 'Zilla Slab', serif;
+    font-weight: bold;
+}
+.carrera{
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 0.2em;
+    font-family: 'Zilla Slab', serif;
+}
+
+.titulosh3{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Zilla Slab', serif;
+}
+.textos{
+    font-size: 24px;
+    font-family: 'Zilla Slab', serif;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.contenedorcompetencias{
+    width: 350px;
+    height: 450px;
+    margin-left: 50px;
+    background-color: #E1EFF1;
+}
+
+.imagencv{
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+/*page conoceme - grilla*/
+
+.grid-conoceme{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "aside main"
+    "footer footer";
+}
+
+.a{grid-area:header;}
+.b{grid-area:main;
+    margin: 0px 50px;  
+}
+.c{grid-area:aside;}
+.d{grid-area:footer;}
+
+/*page-proyectos*/
+
+.surprise{
+    font-family: 'Zilla Slab', serif;
+    font-size: 80px;
+    color: #5D0387;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px;
+}
+
+.surpriseBanner {
+    background-image: url(../img/confeti.png);
+    height: 604px;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+/*grid page-proyectos*/
+.gridproyectos{
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr 280px;
+}
+
+.gridproyectos section{
+    justify-self: center;
+    align-self: center;
+}
+
+.imagenfiesta{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*blog-style*/
+
+.bannerblog{
+    background-image: url(../img/blog.jpg);
+    background-size: cover;
+    height: 601px;
+}
+
+.contenedorblog {
+    background-color: #E1EFF1;
+    height: 400px;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contenedorblog img{ 
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 20px;
+}
+.h4{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Zilla Slab', serif;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.contenedortitulos{
+    height: 790;
+}
+
+/*blog grid*/
+.gridblog{
+    display: grid;
+    grid-template-rows: 600px 1500px 280px;
+}
+
+/*daily challenge*/
+.contenedordias {
+    background-color: #E1EFF1 ;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px 0 #5C6B73;
+    height: 200 px;
+    margin: 50px
+    
+}
+
+.h6 {
+    font-size: 24;
+    font-family: 'Zilla Slab', serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.textos2{
+    font-size: 24px;
+    font-family: 'Zilla Slab', serif;
+    margin: 10px;
+}
+
+
+
+/*Daily challenge grid*/
+.gridDaily {
+    display: grid;
+    grid-template-rows: 600px 3000px 280px ;
+}
+
+.gridDaily main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+
+/*mobile style- index*/
+@media only screen and (max-width: 480px) {
+    .gridContainer{
+        display: grid;
+        grid-template-rows: 290px 1000px 250px 80px;
+        justify-content: center;
+    }
+    
+    
+    .indexheader{    
+        background-image: url(../img/banner.jpg); 
+        background-size: cover;
+        width: 100%;
+        height: 290px;
+    }
+
+    /*barra de navegación*/
+    .barradenavegación{
+        background-color: white;
+        background-size: cover;
+        width: 100%;
+        height: 40px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    header nav ul li { 
+        display: inline-block;
+    }
+    header nav ul li a { 
+        font-size: 14px;
+        margin: 0 8px;
+        text-decoration: none;
+        color: black;
+        font-family: 'Zilla Slab', serif;
+    }
+    .margenimg{
+        margin-left: 16px;
+    }
+    .margenimg img{ 
+        height: 24px;
+        width: 24px;
+    } 
+
+
+    .encabezado{
+        color: #253237;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center; 
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 100%;
+        align-items: center;
+    }
+
+    .subtitulo {    
+        margin: 50px 16px ; 
+        color: #5C6B73;
+        font-size: 18px;
+        font-family: 'Zilla Slab', serif;
+        font-weight: bold;
+    }
+
+    /*ordenar tarjetas index con grillas y fexbox*/
+    .cardsgrid{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        margin: auto;
+    }
+
+    .cardsgrid .cards{
+        width: 216px;
+        height: 230px;
+        border-radius: 20px;
+        overflow: hidden;
+        margin: 25px;
+        text-align: center;
+        box-shadow: 0 10px 10px 0 #5C6B73;
+        display: grid;
+    }
+
+    .cardsgrid .cards img {
+        width: 216px ;
+        height: 160px;
+    }
+
+    .cardsgrid .cards a{
+        font-size: 16px;
+        text-decoration: none;
+        color:black;
+        font-family: 'Zilla Slab', serif;
+        margin: 20px;
+    }
+
+    /*section index con flexbox*/
+    .sobremi { 
+        background-color: #E1EFF1;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        }
+        
+        .sobremi img{
+            width: 100px;
+            height: 100px;
+
+            border-radius: 20px;
+        margin: 40px 20px 40px 20px;
+        }
+        
+        .sobremi div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .boton{
+            background-color: #5C6B73;
+            width: 314;
+            height: 40;
+            color: white;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: bold;
+            text-align: center;
+            padding: 20px 20px;
+            text-decoration: none;
+            font-family: 'Zilla Slab', serif;
+        }
+        
+        .textosection{ 
+            font-size: 14px;
+            font-family: 'Zilla Slab', serif;
+            margin-bottom: 40px;
+            margin-right: 20px;
+        }
+
+        .contenedorfooter{
+            background-color: #B8C2C8;
+            height: 80px;
+            
+        }
+        
+        .contenedorfooter div{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 16px;
+        }
+        .contenedorfooter div img{
+        width: 48px;
+        height: 48px;
+        }
+
+        /*media para conoceme*/
+        /*page conoceme* style*/
+    .nombreCv{
+        color: #5C6B73;
+        font-size: 24px;
+        font-family: 'Zilla Slab', serif;
+        font-weight: bold;
+    }
+    .carrera{
+        font-weight: bold;
+        font-size: 16px;
+        letter-spacing: 0.2em;
+        font-family: 'Zilla Slab', serif;
+    }
+
+    .titulosh3{
+        font-size: 14px;
+        font-weight: bold;
+        font-family: 'Zilla Slab', serif;
+    }
+    .textos{
+        font-size: 14px;
+        font-family: 'Zilla Slab', serif;
+        margin-left: 16px;
+        margin-bottom: 25px;
+    }
+
+    .contenedorcompetencias{
+        width: 326px;
+        height: 216px;
+        margin-left: 16px;
+        background-color: #E1EFF1;
+    }
+
+    .imagencv{
+        height: 158px;
+        width: 156px;
+        border-radius: 20px;
+        margin-left: 16px;
+        margin-bottom: 16px;
+    }
+
+    /*page conoceme - grilla*/
+
+    .grid-conoceme{
+        display: grid;
+        grid-template-areas: 
+        "header header"
+        "main main"
+        "aside aside"
+        "footer footer";
+    }
+
+    .a{grid-area:header;}
+    .b{grid-area:main;
+        margin: 0px 16px;  
+    }
+    .c{grid-area:aside;}
+    .d{grid-area:footer;}
+
+}
+
+/*animaciones*/
+.boton:hover{
+    transition: all 1s;
+    background-color: rgb(104, 144, 197);
+    
+}
+
+.contenedorfooter div a:hover{
+    transform: scale(1.5);
+    transition: all 1s;
+}
+
+.barradenavegación ul li a:hover{
+    color: rgb(71, 85, 216);
+}
+
